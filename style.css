@@ -1,0 +1,175 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #72c0ff;
+}
+
+header {
+	margin: 0;
+	padding: 1px;
+	background: #ffeba5;
+}
+
+nav ul{
+	list-style: none;
+	background-color: #fcd774;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	font-family: 'Trocchi', 'serif';
+	font-size: 2em;
+	line-height: 40px;
+	height: 40px; 
+	display: block;
+	padding-left: 10vw;
+	padding-right: 3vw;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	transition: 1.5s background-color;
+}
+
+nav a:hover {
+	background-color: #d9b32f;
+}
+
+nav a:focus {
+	background-color: #fff;
+	color:#444;
+	cursor:default;
+}
+
+h1 {
+	font-family: 'Sofia';
+	padding-left: 7vw;
+}
+
+h3{
+	font-family: 'Montserrat';
+	padding-left: 5vw;
+}
+
+h2{
+	padding-left: 3vw;
+	font-family: 'Montserrat';
+}
+
+form {
+	padding: 3vw;
+	background-color:#3fc6ee;
+	width: 500px;
+	border-radius: 0.5vw; 
+	font-size: 1.2em;
+	float: left;
+}
+
+/*.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6vw;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 6vw;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}*/
+
+p {
+	font-family: 'Montserrat';
+}
+
+#aboutme {
+	padding-left: 1vw;
+	text-align: justify; 
+	font-size: 1.5em;
+}
+
+#minhafoto{
+	display: block;
+	float: right;
+	padding: 1vw;
+	width: 30vw;
+	height: 30vw;
+}
+
+.works{
+	display: inline-block;
+	padding: 5vw;
+	width: 22vw;
+	height: 22vw;
+	/*margin-left: 0.5vw;*/
+}
+
+.works:hover{
+	transition: 1s;
+	background-color:#3fc6ee; 
+	border-radius: 10vw;
+}
+
+#socialMedia{
+	text-align: right;
+	/*margin-top: -4.1vw;*/
+	/*margin-left: 50vw;*/
+	margin-right: 1vw;
+}
+
+.redesSociais{
+	list-style: none;
+	text-align: right;
+	font-size: 1.5em;
+	text-decoration: underline;
+	color: #000000;
+	font-family: 'Montserrat';
+	margin-right: 10px;
+}
+
+.descrição {
+	display: inline-block;
+	margin-left: 12vw;
+	font-size: 1.2em;
+}
+.divisão{
+	margin-left: 2.75vw;
+	display: inline-block;
+	width: 28vw;
+}
+
+@media only screen and (min-width: 768px) {
+	nav li{
+		display:inline-block;
+	}
+	.divisão{
+		display: inline-block;
+	}
+}
+
+/*Coin slider*/
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+.coin-slider {padding: 3vw;}
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 545px; padding: 10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+
+#wrap{
+    display:none;
+    height:100%;
+    width:100%;
+}
